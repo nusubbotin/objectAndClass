@@ -10,13 +10,13 @@ public class Main {
         Author sidorov = new Author( "Seny", "Sidorov");
 
         Book deskBook = new Book("Настольная книга", perov, 2005);
-        System.out.println("deskBook.toString(): " + deskBook.toString());
+        System.out.println("deskBook.toString(): " + deskBook);
 
         Book tutorialBook = new Book("Самоучитель", sidorov, 2001);
-        System.out.println("tutorialBook.toString():" + tutorialBook.toString());
+        System.out.println("tutorialBook.toString():" + tutorialBook);
 
         tutorialBook.setPublicationYear(2015);
-        System.out.println("tutorialBook.toString(): " + tutorialBook.toString());
+        System.out.println("tutorialBook.toString(): " + tutorialBook);
 
     }
 }
